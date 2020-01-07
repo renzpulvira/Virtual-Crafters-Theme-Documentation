@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Getting started | Virtual Crafters Theme</title>
+    <meta name="description" content="Just playing around">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.bb2b0e4b.css" as="style"><link rel="preload" href="/assets/js/app.d3669f4d.js" as="script"><link rel="preload" href="/assets/js/2.083189b1.js" as="script"><link rel="preload" href="/assets/js/7.bc2bab6f.js" as="script"><link rel="prefetch" href="/assets/js/10.2d422ad8.js"><link rel="prefetch" href="/assets/js/3.4024bf5d.js"><link rel="prefetch" href="/assets/js/4.f543e7d6.js"><link rel="prefetch" href="/assets/js/5.f0da06ba.js"><link rel="prefetch" href="/assets/js/6.7b0c745c.js"><link rel="prefetch" href="/assets/js/8.823fa275.js"><link rel="prefetch" href="/assets/js/9.d56842e1.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bb2b0e4b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Virtual Crafters Theme</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/intro/getting_started.html" class="nav-link router-link-exact-active router-link-active">Getting Started</a></div><div class="nav-item"><a href="/functions/importing_files.html" class="nav-link">Functions</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/intro/getting_started.html" class="nav-link router-link-exact-active router-link-active">Getting Started</a></div><div class="nav-item"><a href="/functions/importing_files.html" class="nav-link">Functions</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/intro/getting_started.html" class="active sidebar-link">Getting started</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/intro/getting_started.html#requirements" class="sidebar-link">Requirements</a></li><li class="sidebar-sub-header"><a href="/intro/getting_started.html#installation" class="sidebar-link">Installation</a></li><li class="sidebar-sub-header"><a href="/intro/getting_started.html#configuration" class="sidebar-link">Configuration</a></li><li class="sidebar-sub-header"><a href="/intro/getting_started.html#usage" class="sidebar-link">Usage</a></li></ul></li><li><a href="/intro/scss_files.html" class="sidebar-link">The Scss Architecture</a></li><li><a href="/intro/js_files.html" class="sidebar-link">Javascript/ES6</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="getting-started"><a href="#getting-started" class="header-anchor">#</a> Getting started</h1> <p>The theme uses gulp to automate a lot of stuff such as <em>sass/js minifying</em>, <em>babel stuff</em>, <em>converting our scss to modern css</em>, <em>auto-reload</em>, <em>ftp-upload on change</em> etc...</p> <p>Here is a list of features that our theme has:</p> <ul><li>BrowserSync - Sync file changes and interactions across many devices.</li> <li>Babel - convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.</li> <li>Sass - Convert Sass/Scss files to css with sourcemaps and compress files using cssnano for modern compression.</li> <li>Autoprefixer - No need to add vendor prefixers, Autoprefixer does that for you(Autoprefixer will use the data based on current browser popularity and property support to apply prefixes for you.)</li> <li>Compressor/Optimizer - Optimize and compress images(Jpeg, pngs, gifs, svg).</li> <li>vinyl-ftp - Automatically upload file(s) to ftp.</li> <li>Uglify - Minify js code.</li></ul> <h2 id="requirements"><a href="#requirements" class="header-anchor">#</a> Requirements</h2> <p>You need to have all this installed on your system:</p> <ol><li><a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Nodejs<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">Npm<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>(often comes bundled with nodejs on install)</li> <li><a href="https://gulpjs.com/" target="_blank" rel="noopener noreferrer">Gulp<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> installed globally</li> <li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ol> <h2 id="installation"><a href="#installation" class="header-anchor">#</a> Installation</h2> <p>Clone the Virtual Crafters Theme Github repo on gitlab</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> clone https://gitlab.com/vtl_gitlab/virtual-crafters-wordpress-theme.git
+</code></pre></div><p>Next we need to install npm packages for our gulp</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span>
+</code></pre></div><p>After that you are ready to start configuring your <em>gulpfile</em> to sync to your ftp.</p> <h2 id="configuration"><a href="#configuration" class="header-anchor">#</a> Configuration</h2> <p>Before we start our Theme development, We need to configure our ftp credentials. open <strong>gulpfile.js</strong>.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>├── <span class="token number">404</span>.php
+├── assets
+├── classes
+├── footer.php
+├── functions.php
+├── gulpfile.js  <span class="token operator">&lt;</span>---------
+├── header.php
+├── inc
+├── index.php
+├── killport
+├── node_modules
+├── package.json
+├── package-lock.json
+├── README.md
+├── screenshot.png
+├── singular.php
+├── src
+├── style.css
+├── style-rtl.css
+├── template-about.php
+├── template-parts
+└── templates
+
+</code></pre></div><p>Look for the <strong>ftpConfig</strong> obj or &quot;FTP Configuration&quot; Comment on gulpfile.js and insert your ftp configuration.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> ftpConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+  host<span class="token punctuation">:</span> <span class="token string">&quot;ftp.vtlcrafters.com&quot;</span><span class="token punctuation">,</span>
+  user<span class="token punctuation">:</span> <span class="token string">&quot;developer@vc-preview.com&quot;</span><span class="token punctuation">,</span>
+  pass<span class="token punctuation">:</span> <span class="token string">&quot;M@ur!c3M0ss2006&quot;</span><span class="token punctuation">,</span>
+  remoteFolder<span class="token punctuation">:</span> <span class="token string">&quot;/renz/wp-content/themes/vtl&quot;</span><span class="token punctuation">,</span>
+  siteUrl<span class="token punctuation">:</span> <span class="token string">&quot;http://vc-preview.com/renz/&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p><strong>MAKE SURE TO PUT THE CORRECT REMOTEFOLDER</strong></p></blockquote> <p>gulp will overwrite the files, so make sure you put the remotefolder correctly.</p> <h2 id="usage"><a href="#usage" class="header-anchor">#</a> Usage</h2> <p>We should deploy our local development files to our ftp server before we tell gulp to watch our files as we write code. Open your terminal and go to our project folder</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token builtin class-name">cd</span> virtual-crafters-wordpress-theme
+
+<span class="token operator">&gt;</span> gulp deploy
+</code></pre></div><p>Gulp will get all our local files and upload to our server.
+The terminal should look similar to these:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span><span class="token number">14</span>:44:58<span class="token punctuation">]</span> Using gulpfile ~/Documents/projects/company_projects/virtual-crafters-wordpress-theme/gulpfile.js
+<span class="token punctuation">[</span><span class="token number">14</span>:44:58<span class="token punctuation">]</span> Starting <span class="token string">'deploy'</span><span class="token punctuation">..</span>.
+<span class="token punctuation">[</span><span class="token number">14</span>:44:58<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:44:58<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:44:58<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/assets/fonts/inter
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/assets/fonts
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/assets/images
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/css/scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> DISC
+<span class="token punctuation">[</span><span class="token number">14</span>:45:00<span class="token punctuation">]</span> DISC
+<span class="token punctuation">[</span><span class="token number">14</span>:45:01<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/js/scripts
+<span class="token punctuation">[</span><span class="token number">14</span>:45:01<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:01<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:01<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/js
+<span class="token punctuation">[</span><span class="token number">14</span>:45:01<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:02<span class="token punctuation">]</span> PUT   /renz/wp-content/themes/vtl/src/js/scripts/main.js
+<span class="token punctuation">[</span><span class="token number">14</span>:45:02<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:02<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/css
+<span class="token punctuation">[</span><span class="token number">14</span>:45:02<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:02<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/css/scss/base
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> UP    <span class="token number">100</span>% /renz/wp-content/themes/vtl/src/js/scripts/main.js
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> PUT   /renz/wp-content/themes/vtl/src/css/scss/main.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> PUT   /renz/wp-content/themes/vtl/src/css/scss/base/_fonts.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/css/scss/components
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> PUT   /renz/wp-content/themes/vtl/src/css/scss/base/_variables.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> UP    <span class="token number">100</span>% /renz/wp-content/themes/vtl/src/css/scss/main.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> UP    <span class="token number">100</span>% /renz/wp-content/themes/vtl/src/css/scss/base/_fonts.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/css/scss/layout
+<span class="token punctuation">[</span><span class="token number">14</span>:45:03<span class="token punctuation">]</span> UP    <span class="token number">100</span>% /renz/wp-content/themes/vtl/src/css/scss/base/_variables.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/css/scss/pages
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> DISC
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> DISC
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> PUT   /renz/wp-content/themes/vtl/src/css/scss/layout/_footer.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> CONN
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> READY
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> PUT   /renz/wp-content/themes/vtl/src/css/scss/base/_mixins.scss
+<span class="token punctuation">[</span><span class="token number">14</span>:45:04<span class="token punctuation">]</span> MLSD  /renz/wp-content/themes/vtl/src/js/scripts/vendors
+</code></pre></div><p>Finally, we should tell gulp to start watching our files on save.</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token operator">&gt;</span> gulp
+</code></pre></div><p>A local server will open, proxying our <code>siteUrl</code> and will automatically reload our browser and upload to ftp when we save new files.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/intro/scss_files.html">The Scss Architecture</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d3669f4d.js" defer></script><script src="/assets/js/2.083189b1.js" defer></script><script src="/assets/js/7.bc2bab6f.js" defer></script>
+  </body>
+</html>
